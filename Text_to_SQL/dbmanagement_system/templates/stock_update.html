@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/stock.css') }}">
+    <title>Stock Update</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Update Stock</h1>
+        <form id="stockUpdateForm" action="/update_stock" method="POST" class="stock-form">
+            <div class="row">
+                <div class="column">
+                    <label for="category">Category:</label>
+                    <select id="category" name="category">
+                        <option value="">Select Category</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <label for="item">Item:</label>
+                    <select id="item" name="item">
+                        <option value="">Select Item</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="brand_name">Brand Name:</label>
+                    <input type="text" name="brand_name" id="brand_name" readonly>
+                </div>
+                <div class="column">
+                    <label for="model_name">Model Name:</label>
+                    <input type="text" name="model_name" id="model_name" readonly>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="specifications">Specifications:</label>
+                    <textarea name="specifications" id="specifications" readonly></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="number_of_items">Number of Items:</label>
+                    <input type="number" name="number_of_items" id="number_of_items">
+                </div>
+            </div>
+            <div class="row">
+                <button type="submit">Update Stock</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+
