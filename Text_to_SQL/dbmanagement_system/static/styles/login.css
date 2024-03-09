@@ -1,0 +1,60 @@
+
+        * { font-family: 'Poppins'; }
+        body {
+            user-select: none;
+            overflow-y: hidden;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-image: url('login.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            padding: 2em 2em 3em 3.5em;
+        }
+        .screen-1 {
+           background: hsl(213deg 85% 97%);
+           padding: 2em;
+           padding-bottom: 1em;
+           display: flex;
+           flex-direction: column;
+           border-radius: 30px;
+           box-shadow: 0 0 2em hsl(231deg 62% 94%);
+           gap: 2em;
+           max-height: 60vh;
+}
+        .email, .password {
+            background: hsl(0deg 0% 100%);
+            box-shadow: 0 0 2em hsl(231deg 62% 94%);
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            border-radius: 20px;
+            color: hsl(0deg 0% 30%);
+        }
+        input {
+            outline: none;
+            border: none;
+            &::placeholder {
+                color: hsl(0deg 0% 0%);
+                font-size: 1em;
+            }
+        }
+
+        .login {
+            padding: 1em;
+            background: linear-gradient(to right, #3E7CCC, #9EC3F2);
+            color: hsl(0 0 100);
+            border: none;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .footer {
+            display: flex;
+            font-size: 0.7em;
+            color: hsl(0deg 0% 37%);
+            gap: 14em;
+            padding-bottom: 10em;
+        }
