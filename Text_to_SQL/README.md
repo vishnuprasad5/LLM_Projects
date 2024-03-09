@@ -18,6 +18,7 @@ This project comprises two main components: a Virtual Database Assistant and a D
 ### Functionality
 Users can pose questions in natural language, which are then converted into SQL queries by the assistant. These queries are executed to retrieve answers from the database.
 
+https://github.com/vishnuprasad5/LLM_Projects/assets/132830156/95a96f77-478c-4353-b71b-1a0c2a826ad9
 
 ### Sample Questions
 - Determine the percentage of revenue contributed by the laptop category to the total revenue.
