@@ -40,3 +40,5 @@ The Database Management System offers the following features:
 - Update Sales: Update sales records for products.
 - Update Discount: Adjust discount rates for products.
 - Add New Product: Incorporate new products into the database.
+
+https://github.com/vishnuprasad5/LLM_Projects/assets/132830156/90f17f8e-905f-46be-8ee4-e8f126cc2817
